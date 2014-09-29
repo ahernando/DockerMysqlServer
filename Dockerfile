@@ -26,4 +26,4 @@ ADD mysql.sql /script/mysql.sql
 EXPOSE 3306
 
 #Lanzamos mysql
-CMD  mysqld_safe --init-file=/scripts/mysql.sql
+CMD  mysqld_safe --init-file=/script/mysql.sql
